@@ -9,11 +9,9 @@ body {
 }
 
 .location {
+  border-bottom: 1px solid black;
   display: inline-block;
   font-size: 18px;
-  background-color: #aaa;
-  float: center;
-  margin: 1%;
   padding: 1%;
   width: 100%;
 }
@@ -24,11 +22,10 @@ body {
 
 .content {
   font-size: 14px;
-  background-color: #aaa;
   float: center;
   margin: 1%;
   padding: 1%;
-  width: 100%;
+  display: inline-block;
 }
 
 .content:hover {
@@ -42,7 +39,7 @@ body {
 }
 
 .container {
-  display: block;
+  background-color: #aaa;
   margin: 0 auto;
   width: 420px;
 }
@@ -60,7 +57,9 @@ nav {
 }
 
 .arrow {
-  text-align: right;]
+  float: right;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 .arrow i {
